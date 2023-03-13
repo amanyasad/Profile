@@ -1,5 +1,5 @@
 var myProjects=[{name:"Value Platform",imgSrc:"/img/value.png", git:"", show:"https://value-platform.com/home"},
-{name:"Profile",imgSrc:"/img/profile.PNG", git:"https://github.com/amanyasad/Profile", show:"https://splendorous-croquembouche-7d0271.netlify.app/"},
+{name:"Profile",imgSrc:"/img/profile.PNG", git:"https://github.com/amanyasad/Profile", show:"https://amany-profile-148.netlify.app/"},
 {name:"Weather",imgSrc:"/img/weather.PNG", git:"https://github.com/amanyasad/Weather-Project", show:"https://magnificent-gumdrop-ac7729.netlify.app/"},
 {name:"Angora",imgSrc:"/img/angora.PNG", git:"https://github.com/amanyasad/Angora", show:"https://amanyasad.github.io/Angora/"},
 {name:"Devfolio",imgSrc:"/img/devfolio.PNG", git:"https://github.com/amanyasad/DevFolio", show:"https://amanyasad.github.io/DevFolio/"},
@@ -10,10 +10,10 @@ var myProjects=[{name:"Value Platform",imgSrc:"/img/value.png", git:"", show:"ht
 var limit = 6;
 function showProject(){
 
-    console.log("project")
+  
     var str ='';
   for (let index = 0; index < limit; index++) {
-    console.log("project", myProjects[index])
+  
     str += `
     <div class="col-lg-4 my-3">
     <div class=" contain-proj rounded-3 ">
@@ -48,7 +48,7 @@ showProject();
 let btnEle = document.getElementById("show");
 btnEle.addEventListener("click",()=>{
 
-    console.log("from click")
+   
     if(limit === 6){
         limit = myProjects.length;
         btnEle.innerHTML = 'Hide more';
@@ -61,4 +61,3 @@ btnEle.addEventListener("click",()=>{
 })
 
 
-console.log("lemet", limit)
