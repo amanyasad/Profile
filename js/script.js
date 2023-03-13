@@ -1,4 +1,4 @@
-var myProjects=[{name:"Value Platform",imgSrc:"/img/value.png", git:"", show:"https://value-platform.com/home"},
+var myProjects=[{name:"Value Platform",imgSrc:"/img/value.PNG", git:"", show:"https://value-platform.com/home"},
 {name:"Profile",imgSrc:"/img/profile.PNG", git:"https://github.com/amanyasad/Profile", show:"https://amany-profile-148.netlify.app/"},
 {name:"Weather",imgSrc:"/img/weather.PNG", git:"https://github.com/amanyasad/Weather-Project", show:"https://magnificent-gumdrop-ac7729.netlify.app/"},
 {name:"Angora",imgSrc:"/img/angora.PNG", git:"https://github.com/amanyasad/Angora", show:"https://amanyasad.github.io/Angora/"},
