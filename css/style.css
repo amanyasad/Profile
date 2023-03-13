@@ -280,7 +280,7 @@ h1{
     text-decoration:none;
 }
 .contactUs .hover a:hover{
-    color: #283654;
+    color: black;
 }
 .more-projects {
     --b: 0.1em;   /* the thickness of the line */
