@@ -8,7 +8,6 @@
 body{
     /* background-image: url(../img/edit2.png); */
     /* background-color: #3399FF; */
-    font-family: 'Almarai', sans-serif;
     font-family: 'Niconne', cursive;
     font-family: 'Poppins', sans-serif;
     font-family: 'Sriracha', cursive;
@@ -283,19 +282,23 @@ h1{
     color: black;
 }
 .more-projects {
-    --b: 0.1em;   /* the thickness of the line */
-    --c: #1095c1; /* the color */
-    
+    --b: 0.1em;
+    --c: #1095c1;
     color: #0000;
-    padding-block: var(--b);
-    background: 
-      linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
-      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    background-color: #283654;
+    background:       linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
     -webkit-background-clip: text,padding-box;
-            background-clip: text,padding-box;
+    background-clip: text,padding-box;
     transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
-  }
+    border: 1.5px solid #ffffff;
+    border-radius: unset !important;
+    -webkit-border-radius: unset !important;
+    -moz-border-radius: unset !important;
+    -ms-border-radius: unset !important;
+    -o-border-radius: unset !important;
+}
   .more-projects:hover {
     --_p: 100%;
     --_s: .3s;
+    
   }
